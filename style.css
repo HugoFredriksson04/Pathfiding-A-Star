@@ -1,0 +1,39 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    grid-gap: 1px;
+    border: 2px solid #000; /* Add border to grid */
+    margin-bottom: 20px; /* Add margin to bottom */
+}
+
+.node {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    transition: background-color 0.1s; /* Smooth transition */
+}
+
+.start {
+    background-color: #00ff00; /* Green */
+}
+
+.end {
+    background-color: #ff0000; /* Red */
+}
+
+.obstacle {
+    background-color: #000; /* Black */
+}
+
+.visited {
+    background-color: #66ff66; /* Light green */
+}
+
+.path {
+    background-color: #ffff00; /* Yellow */
+}
